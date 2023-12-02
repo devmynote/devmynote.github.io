@@ -10,11 +10,10 @@ ul, ol {
 
 ul li, ol li {
     color: black;
-    border-left: solid 8px orange;  /*左側の線*/
+    border-left: solid 16px orangered;  /*左側の線*/
     background: whitesmoke;
     margin-bottom: 5px;             /*下側の余白*/
     line-height: 1.5;
-    padding: 0.5em;
     list-style-type: none!important;/*ポチ消す*/
     width: 600px;
 }
@@ -22,11 +21,12 @@ ul li, ol li {
 li a {
     color: black;
     margin-bottom: 1px;
-    padding: 5px 0 5px 10px;
+    padding: 10px 0 10px 10px;
     display: block;
     text-decoration: none;
 }
 
 li a:hover {
-    color: orange;
+    color: orangered;
+    background: lightgray;
 }
